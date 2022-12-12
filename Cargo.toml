@@ -2,7 +2,10 @@
 name = "tauri-cli"
 version = "0.1.0"
 authors = ["tu6ge <772364230@qq.com>"]
-edition = "2018"
+edition = "2021"
+description = "tauri builder"
+repository = "https://github.com/tu6ge/tauri-node"
+license = "Apache-2.0 OR MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
@@ -11,7 +14,7 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
-wasm-bindgen = "0.2.63"
+wasm-bindgen = "0.2.83"
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
 # logging them with `console.error`. This is great for development, but requires
