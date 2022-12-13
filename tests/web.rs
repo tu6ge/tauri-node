@@ -15,7 +15,7 @@ fn pass() {
 }
 
 #[wasm_bindgen_test]
-fn test_add(){
+fn test_add() {
     let val = add(2, 3);
     assert_eq!(val, 5);
 }
