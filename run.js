@@ -1,5 +1,9 @@
+
 const tauri = require('./pkg');
 
-let res = tauri.tauri(["--help"])
+//tauri.main();
 
+//tauri.tauri(["build"]);
 
+let res = tauri.print_env();
+console.log(res);
